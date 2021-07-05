@@ -1,6 +1,6 @@
 import React from 'react'
 import { FaBars } from 'react-icons/fa'
-import { Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu, NavItem, NavLinks } from './NavbarElements'
+import { Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu, NavItem, NavLinks, NavBtn, NavBtnLink } from './NavbarElements'
 
 function Navbar() {
   return (
@@ -25,6 +25,9 @@ function Navbar() {
               <NavLinks to="signup">Sign up</NavLinks>
             </NavItem>
           </NavMenu>
+          <NavBtn>
+            <NavBtnLink to='/signin'>Sign In</NavBtnLink>
+          </NavBtn>
         </NavbarContainer>
       </Nav>
     </>
