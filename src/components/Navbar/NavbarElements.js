@@ -1,11 +1,11 @@
-import styled from 'styled-components'
-import { Link as LinkR } from 'react-router-dom'
-import { Link as LinkS } from 'react-scroll'
+import styled from "styled-components";
+import { Link as LinkR } from "react-router-dom";
+import { Link as LinkS } from "react-scroll";
 
-export const Nav  = styled.nav`
+export const Nav = styled.nav`
   background: #000000;
   height: 80px;
-  // margin-top: -80px;
+  margin-top: -80px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -17,7 +17,7 @@ export const Nav  = styled.nav`
   @media screen and (max-width: 960px) {
     transition: 0.8s all ease;
   }
-`
+`;
 
 export const NavbarContainer = styled.div`
   display: flex;
@@ -27,7 +27,7 @@ export const NavbarContainer = styled.div`
   width: 100%;
   padding: 0 24px;
   max-width: 1100px;
-`
+`;
 
 export const NavLogo = styled(LinkR)`
   color: #ffffff;
@@ -38,8 +38,8 @@ export const NavLogo = styled(LinkR)`
   align-items: center;
   margin-left: 24px;
   font-weight: bold;
-   text-decoration: none;
-`
+  text-decoration: none;
+`;
 
 export const MobileIcon = styled.div`
   display: none;
@@ -54,7 +54,7 @@ export const MobileIcon = styled.div`
     cursor: pointer;
     color: #ffffff;
   }
-`
+`;
 
 export const NavMenu = styled.ul`
   display: flex;
@@ -66,11 +66,11 @@ export const NavMenu = styled.ul`
   @media screen and (max-width: 768px) {
     display: none;
   }
-`
+`;
 
 export const NavItem = styled.li`
   height: 80px;
-`
+`;
 
 export const NavLinks = styled(LinkS)`
   color: #ffffff;
@@ -80,27 +80,27 @@ export const NavLinks = styled(LinkS)`
   padding: 0 1rem;
   height: 100%;
   cursor: pointer;
-  
+
   &.active {
     border-bottom: 3px solid #01bf71;
   }
-`
+`;
 
 export const NavBtn = styled.nav`
   display: flex;
   align-items: center;
-  
+
   @media screen and (max-width: 768px) {
     display: none;
   }
-`
+`;
 
 export const NavBtnLink = styled(LinkR)`
   border-radius: 50px;
   background: #01bf71;
   white-space: nowrap;
   padding: 10px 22px;
-  color: #010606:
+  color: #010606;
   font-size: 16px;
   outline: none;
   border: none;
@@ -113,4 +113,4 @@ export const NavBtnLink = styled(LinkR)`
     background: #ffffff;
     color: #010606;
   }
-`
+`;
